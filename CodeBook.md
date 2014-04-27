@@ -1,6 +1,9 @@
-#This file describes the variables is the output file (Subject_Activity_means.txt), and the cleaning procudures performed to get there.
+#This file describes the input data and the output file (Subject_Activity_means.txt), and the briefly the steps performed to get there (see more in README.MD).
 
-The measurements in the initial dataset are outputs from an accelerometer and a gyroscope in a Samsung Galaxy SII. 
+Input files downloaded from:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+The measurements in the input dataset are measurements from an accelerometer and a gyroscope in a Samsung Galaxy SII. 
 30 subjects performed six different activities(WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) with each subject performing each activity between 35-95 times.
 The measurements are 561 values outputed for each activity performed, some of those are summary such as means and standard deviations for the raw measurements.  All the values that are outputed are described in 'features_info.txt' that comes with the dataset.
 The data is split into two sets, training set(21 subjects) and test set (9 subjects).
